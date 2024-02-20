@@ -20,7 +20,7 @@ export default function SelectedContact({
 			}
 		}
 		fetchSelectedContact();
-	}, []);
+	}, [selectedContactId]);
 	return (
         <div>
             {contact ? (
